@@ -220,6 +220,7 @@ section {
 
 .cast__pic-pd {
   margin: 220px 15px;
+  width: 220px;
   height: 200px;
   border-radius: 100px;
   border:black solid 1px;
@@ -229,9 +230,10 @@ section {
 .cast__pic-jd {
   margin: 10px 10px;
   height: 200px;
+  width: 220px;
   border-radius: 100px;
   border:black solid 1px;
-  box-shadow:black 7px 0px 16px 1px;
+  box-shadow:black 7px 0px 16px 5px;
 }
 
 .cast-wrapper {
@@ -244,20 +246,20 @@ section {
 }
 
 .queen__p {
-  font-size: 25px;
+  font-size: 35px;
   position: absolute;
-  top: 800px;
+  top: 780px;
   left: 60px;
   color: goldenrod;
   animation: nameChange2 1000ms infinite alternate-reverse;
 }
 
 .jadessa {
-  font-size: 33px;
+  font-size: 50px;
   position: absolute;
   position: absolute;
   top: 855px;
-  left: 950px;
+  left: 970px;
   color: goldenrod;
   animation: nameChange 1050ms infinite alternate-reverse;
 }
