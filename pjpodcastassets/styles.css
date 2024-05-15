@@ -19,6 +19,7 @@ nav {
   height: 30px;
 }
 
+
 .nav__link:hover {
   display: flex;
   transition: 600ms all;
@@ -49,16 +50,40 @@ body {
   height: 95vh;
 }
 
-.title__wrapper {
-  text-align: center;
-  height: 60px;
-  width: 100%;
-  color: rgb(61, 19, 100);
-  background-color: rgba(0, 128, 128, 0.671);
-  border-radius: 10px;
-  box-shadow: 0px 1px 13px 20px rgba(0, 128, 128, 0.655);
+
+  .title__wrapper {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    color: rgb(61, 19, 100);
+    background-color: rgba(0, 128, 128, 0.671);
+    border-radius: 10px;
+    box-shadow: 0px 1px 13px 20px rgba(0, 128, 128, 0.655);
 }
 
+
+.please__img {
+  position: absolute;
+  animation: banger 4000ms alternate infinite;
+  width: 25%;
+  left: 80px;
+  height: 55px;
+  border-radius: 10px;
+  opacity: .6;
+  box-shadow: purple 10px 10px 10px;
+}
+
+.judge__img {
+  position: absolute;
+  animation: banger 4000ms alternate infinite;
+  width: 25%;
+  right: 60px;
+  top: 70px;
+  height: 55px;
+  border-radius: 10px;
+  opacity: .6;
+  box-shadow: purple 10px 10px 10px;
+}
 .header__img--dont {
   max-width: 35%;
   color: aqua;
@@ -218,13 +243,17 @@ section {
   animation: banger 1000ms infinite alternate;
 }
 
-.cast__pic-pd {
+
+.cast__pic-pd{
+
   margin: 220px 15px;
+  width: 220px;
   height: 200px;
   border-radius: 100px;
-  border:black solid 1px;
-  box-shadow:black 0px 0px 16px 3px;
+  border: black solid 1px;
+  box-shadow: black 0px 0px 16px 3px;
 }
+
 
 .cast__pic-jd {
   margin: 10px 10px;
